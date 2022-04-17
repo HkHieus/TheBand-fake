@@ -1,0 +1,63 @@
+/* PC */
+@media (min-width: 1024px){
+
+  #header #mobile-menu {
+      display: none;
+  }
+
+}
+/* Moblie */
+@media (max-width: 740px){
+    
+   #header{
+    overflow: hidden;
+   }
+
+   #nav .subnav {
+       position: initial;
+   }
+
+   #nav .subnav {
+    background-color: #333;
+   }
+
+   #nav .subnav a {
+       color: white;
+       padding: 5px 48px;
+   }
+   #nav > li:first-child {
+       display: inline-block;
+   }
+
+   #nav li a {
+       display: block;
+   }
+    #nav > li {
+        display: block;
+    }
+    
+    #header .ti-search {
+        display: none;
+    }
+    #content .member {
+        float: none;
+        width: auto;
+    }
+    #content .member-img {
+        width: 60%;
+    }
+    
+    #content .place-fix {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .modal-container{
+        margin: 0 10px;
+    }
+
+    #content .contact-fix {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
