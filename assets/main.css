@@ -139,7 +139,7 @@ html {
   position: relative;
   margin-top: 46.5px;
   padding-top: 50%;
-  background: url('/W3_TheBand/assets/img/slider/performance.jpg')  top center / contain no-repeat;
+  background: url('./img/slider/performance.jpg')  top center / contain no-repeat;
 }
 
 #slider .text-description {
