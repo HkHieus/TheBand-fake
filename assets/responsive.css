@@ -7,6 +7,15 @@
 
 }
 
+/* tablet and mobile */
+
+@media (max-width:1024px){
+
+    #content .place-book {
+        padding: 17px 20px;
+    }
+}
+
 @media (min-width: 741px) and  (max-width:1023px ) {
     #header #mobile-menu {
         display: none;
